@@ -1,0 +1,8 @@
+import requests
+
+resp = requests.get('https://google.com.br/')
+# print(resp.status_code)
+
+dados = resp.text
+# dados = resp.json()
+print(dados)
